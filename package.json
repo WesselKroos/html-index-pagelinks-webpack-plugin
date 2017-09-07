@@ -1,7 +1,7 @@
 {
   "name": "html-index-pagelinks-webpack-plugin",
   "description": "Generates an index.html with a list of files with links",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "author": {
     "name": "Wessel Kroos",
     "email": "wessel_kroos@hotmail.com"
