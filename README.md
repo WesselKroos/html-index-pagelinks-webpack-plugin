@@ -26,7 +26,7 @@ $ npm install --save-dev html-index-pagelinks-webpack-plugin
 
 ## Usage:
 
-Just pass the optional [options](https://github.com/WesselKroos/html-index-pagelinks-webpack-plugin) to the plugin as the first argument.
+Just pass the optional [options](https://github.com/WesselKroos/html-index-pagelinks-webpack-plugin#options) to the plugin as the first argument.
 
 In your `webpack.config.js`:
 
