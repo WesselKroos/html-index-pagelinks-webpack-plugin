@@ -5,16 +5,18 @@ You can fully customize which type, name and/or basepath of pages/files will be 
 
 ## Customization
 
-```
-output:       //Change the default (index.html) path and name of the destination file
-test:         //A regex to decide which files will be in the the list of pages.
-title:        //Title of the index.html file
-templates: {  //Change the content of the index.html file
-    header: '<h1>[title]</h1><ul>',
-    file: '<li><a href="[filePath]">[fileName]</a><li>',
-    filePath: (filePath) => { return filePath; },
-    fileName: (filePath) => { return filePath[0].toUpperCase() + filePath.substr(1); },
-    footer: '</ul>'
+```javascript
+{
+  output:       //Change the default (index.html) path and name of the destination file
+  test:         //A regex to decide which files will be in the the list of pages.
+  title:        //Title of the index.html file
+  templates: {  //Change the content of the index.html file
+      header: '<h1>[title]</h1><ul>',
+      file: '<li><a href="[filePath]">[fileName]</a><li>',
+      filePath: (filePath) => { return filePath; },
+      fileName: (filePath) => { return filePath[0].toUpperCase() + filePath.substr(1); },
+      footer: '</ul>'
+  }
 }
 ```
 
