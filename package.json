@@ -10,11 +10,11 @@
   "repository" : {
     "type" : "git",
     "url" : "https://github.com/WesselKroos/html-index-pagelinks-webpack-plugin.git"
-  }
+  },
   "bugs": {
     "url" : "https://github.com/WesselKroos/html-index-pagelinks-webpack-plugin",
     "email" : "wessel_kroos@hotmail.com"
-  }
+  },
   "license": "MIT",
   "keywords": [
     "webpack",
