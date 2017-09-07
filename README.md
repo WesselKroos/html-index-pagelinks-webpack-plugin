@@ -1,4 +1,4 @@
-# [HtmlIndexPagelinks](https://github.com/WesselKroos/html-index-pagelinks-webpack-plugin) plugin for [Webpack](http://webpack.github.io/)
+# [Html Index Pagelinks](https://github.com/WesselKroos/html-index-pagelinks-webpack-plugin) plugin for [Webpack](http://webpack.github.io/)
 
 Generates an Index.html (customizable) with a list of links to pages/files in your Webpack project to save time. 
 You can fully customize which type, name and/or basepath of pages/files will be included in the list with a regex. Examples: html,htm,js,ts,css,png,jpg,gif,svg,etc..

@@ -1,7 +1,7 @@
 {
   "name": "html-index-pagelinks-webpack-plugin",
   "description": "HTML Index Pagelinks Webpack Plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "Wessel Kroos",
     "email": "wessel_kroos@hotmail.com"
