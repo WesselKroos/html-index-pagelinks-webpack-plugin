@@ -1,0 +1,38 @@
+{
+  "name": "html-index-pagelinks-webpack-plugin",
+  "description": "HTML Index Pagelinks Webpack Plugin",
+  "version": "1.0.0",
+  "author": {
+    "name": "Wessel Kroos",
+    "email": "wessel_kroos@hotmail.com"
+  },
+  "homepage": "https://github.com/WesselKroos/html-index-pagelinks-webpack-plugin",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/WesselKroos/html-index-pagelinks-webpack-plugin.git"
+  }
+  "bugs": {
+    "url" : "https://github.com/WesselKroos/html-index-pagelinks-webpack-plugin",
+    "email" : "wessel_kroos@hotmail.com"
+  }
+  "license": "MIT",
+  "keywords": [
+    "webpack",
+    "webpack-plugin",
+    "plugin",
+    "html",
+    "htm",
+    "index",
+    "index.html",
+    "pagelinks",
+    "links",
+    "list",
+    "pages",
+    "overview",
+    "html-index-pagelinks-webpack-plugin"
+  ],
+  "peerDependencies": {
+    "webpack": "^1 || ^2 || ^3"
+  },
+  "main": "index.js"
+}
