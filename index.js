@@ -20,7 +20,7 @@ var options = {
                     <h1>${title}</h1>
                     <ul>`
       },
-      file: (filePath, fileName) => { return `<li><a class="index__item-link" href="${filePath}">${fileName}</a><li>\n` },
+      file: (filePath, fileName) => { return `<li><a class="index__item-link" href="${filePath}">${fileName}</a></li>\n` },
       filePath: (filePath) => { return filePath; },
       fileName: (filePath) => {
         filePath = (filePath[0] == '/') ? filePath.substr(1) : filePath;
