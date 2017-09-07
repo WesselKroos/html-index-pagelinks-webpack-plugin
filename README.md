@@ -1,4 +1,10 @@
-# [Html Index Pagelinks](https://github.com/WesselKroos/html-index-pagelinks-webpack-plugin) plugin for [Webpack](http://webpack.github.io/)
+# html-index-file-webpack-plugin
+
+[![Version](https://img.shields.io/npm/v/html-index-pagelinks-webpack-plugin.svg?style=flat-square)](https://www.npmjs.com/package/html-index-pagelinks-webpack-plugin) [![License](https://img.shields.io/npm/l/html-index-pagelinks-webpack-plugin.svg?style=flat-square)](LICENSE)
+
+> Generates an Index.html with a list of links to pages/files
+
+[Html Index Pagelinks](https://github.com/WesselKroos/html-index-pagelinks-webpack-plugin) plugin for [Webpack](http://webpack.github.io/)
 
 Generates an Index.html (customizable) with a list of links to pages/files in your Webpack project to save time. 
 You can fully customize which type, name and/or basepath of pages/files will be included in the list with a regex. Examples: html,htm,js,ts,css,png,jpg,gif,svg,etc..
@@ -12,7 +18,7 @@ You can fully customize which type, name and/or basepath of pages/files will be 
   title:        //Title of the index.html file
   templates: {  //Change the content of the index.html file
       header: '<h1>[title]</h1><ul>',
-      file: '<li><a href="[filePath]">[fileName]</a><li>',
+      file:   '<li><a href="[filePath]">[fileName]</a><li>',
       filePath: (filePath) => { return filePath; },
       fileName: (filePath) => { return filePath[0].toUpperCase() + filePath.substr(1); },
       footer: '</ul>'
