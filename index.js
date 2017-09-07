@@ -23,7 +23,7 @@ var options = {
       file: (filePath, fileName) => { return `<li><a class="index__item-link" href="${filePath}">${fileName}</a><li>\n` },
       filePath: (filePath) => { return filePath; },
       fileName: (filePath) => {
-        filePath = (filePath[0] == '\\') ? filePath.substr(1) : filePath;
+        filePath = (filePath[0] == '/') ? filePath.substr(1) : filePath;
         return filePath.replace(new RegExp('-', 'g'), ' '); 
       },
       footer: () => { 
